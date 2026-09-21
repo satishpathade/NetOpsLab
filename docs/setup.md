@@ -1,17 +1,22 @@
 # Phase 1 — VirtualBox & VM Setup
+
 ## Objective
 
-Create the first Linux virtual machine for NetOpsLab and install Ubuntu Server.
-The first VM will eventually act as the Linux gateway for the NetOpsLab environment.
+Create the first Linux virtual machine for the Linux Network Infrastructure & Operations project and install Ubuntu Server.
+
+The first VM will eventually act as the Linux gateway for the lab environment.
 
 ---
 
 ## 1. Lab Environment
+
 ### Host Machine
 
 The physical computer runs:
+
 - Windows
 - Oracle VM VirtualBox
+
 VirtualBox is used to create and run Linux virtual machines locally.
 
 ### Virtual Machine
@@ -29,10 +34,13 @@ VirtualBox is used to create and run Linux virtual machines locally.
 ---
 
 ## 2. Why VirtualBox
+
 VirtualBox allows us to run Linux servers as virtual machines on the Windows host.
 This lets us build a complete networking lab without requiring multiple physical servers.
 
-**Physical Computer - Windows - VirtualBox - NetOpsLab-Gateway Ubuntu Server**
+### Environment
+
+**Physical Computer - Windows - VirtualBox - NetOpsLab-Gateway - Ubuntu Server**
 
 ## 3. VM Creation
 A virtual machine named `NetOpsLab-Gateway` was created in VirtualBox.
